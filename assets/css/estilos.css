@@ -1,1 +1,275 @@
-estilos
+body{
+background-image: url(../img/habbo.png);
+}
+.jumbotron{
+	background-color: #9DEFED;
+	background-position: center;
+	margin: 3%;
+	border:3px solid #87D466;
+	padding: 0;
+}
+.navbar-nav{
+	float: right;
+}
+.navbar{
+	border:3px solid #87D466;
+	background-color: #9DEFED;
+}
+.navbar-default .navbar-brand{
+	color:#23B6B6;
+	font-size: 50px;
+	text-decoration: underline;
+	
+}
+.navbar .navbar-header{
+	background-color: #9DEFED;
+	font-family: charmonman, cursive;
+	
+
+}
+.navbar .collapse{
+	background-color: #9DEFED;
+	
+}
+
+.navbar-collapse .navbar-nav li a {
+	color:#FCB4ED;
+	font-weight: bold;
+	font-size: 23px;
+	display: inline-block;
+	float: right;
+	}
+.jumbotron h1{
+	text-align: center;
+	color: #87D466;
+	font-size: 80px;
+	font-weight: bold;
+}
+.jumbotron p{
+	text-align: center;
+	color: #FCB4ED;
+	font-weight: bold;
+	font-size: 40px;
+}
+.thumbnail{
+	border-bottom: 0;
+	background-color: #9DEFED;
+
+	width: 70%;
+	position: relative;
+	left: 60px;
+	text-align: center;
+	border:3px solid #87D466;
+	
+}
+.thumbnail .caption{
+	padding-bottom: 0;
+}
+.thumbnail .caption h3{
+	color:#FCB4ED;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	bottom:30px;
+}
+.thumbnail img{
+	width: 85%;
+	margin:5px 5px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	left:25px;
+
+}
+.thumbnail p{
+	display: inline-block;
+    margin-top: 2px;
+    position: relative;
+    bottom:30px;
+    margin-bottom: 0;
+}
+.articulo{
+	background-color: #9DEFED;
+	margin-bottom: 18px;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	border: 3px solid #87D466;
+}
+.articulo .columna{
+	border-right: 3px solid #87D466;
+	box-sizing: border-box;
+}
+.articulo h2{
+color:#FCB4ED;
+font-weight: bold;
+font-size: 30px; 
+text-align: center;
+margin :0;
+
+}
+.up{
+	position: relative;
+	left: 40%;
+	padding-top: 32px;
+	font-size: 70px;
+}
+.form .panel{
+	background-color: #9DEFED;
+	color:#FCB4ED;	
+	font-weight: bold;
+	font-size: 20px;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	border:3px solid #87D466;
+}
+.form .panel h1{
+      text-align: center;
+      color:#fcb4ed;
+      font-weight: bold;
+      margin-top: 10px;
+      padding-bottom: 5px;
+}
+.form .panel label{
+     color:#87D466;
+}
+.redes-container{
+	text-align: center;
+}
+footer .panel {
+	background-color: #9DEFED;
+	color:#87D466;
+	color:black;
+	font-size: 20px;
+	border:3px solid #87D466;
+}
+footer .panel button, input, optgroup, select, textarea {
+    margin: 2px;
+}
+footer .panel-body .redes {
+	list-style: none;
+	display: inline-block;
+	
+}
+footer .panel-body .redes li{
+	list-style: none;
+	float:left;
+	display: inline-block;
+	font-size: 80px;
+	padding: 15px;
+}
+footer h2{
+	color:#FCB4ED;
+}
+footer .bajo{
+	color:#23B6B6;
+	font-size: 50px;
+	font-family: charmonman, cursive;
+	text-decoration:underline;
+	float: right;
+}
+/*movile 415px-600*/
+@media(min-width: 100px) and (max-width: 700px) {
+ .jumbotron{  
+  margin: 3%;
+    }
+  .navbar-default .navbar-brand{
+  	font-size: 20px;
+  	font-weight: bold;
+  }
+  .articulo .columna{
+ border-right: none;
+ border-bottom: 2px solid #87D466;
+ box-sizing: border-box;
+  }
+ footer .panel-body .redes li{
+ 	font-size: 20px;
+ }
+ footer .bajo{
+ 	font-size: 18px;
+ 	margin-top: 11px;
+ 	font-weight: bold;
+ }
+ .thumbnail{
+ 	margin-left: 30px;
+ }
+ .up{
+	position: relative;
+	left: 40%;
+	padding-top: 32px;
+	font-size: 40px;
+ }
+ }
+ @media(min-width: 701px) and (max-width: 996px) {
+ .jumbotron{
+  margin: 7%;
+ }
+  .articulo .columna{
+ border-right: : 2px solid #87D466;
+ 
+  }
+ .navbar-collapse .navbar-nav li a{
+ 	font-size: 10px;
+ }
+ .navbar-default .navbar-brand{
+  	font-size: 20px;
+  	font-weight: bold;
+ }  
+  .articulo .columna{
+ border-right: none;
+ border-bottom: 2px solid #87D466;
+  }
+  footer .panel-body .redes li{
+ 	font-size: 20px;
+ }
+ footer .bajo{
+ 	font-size: 35px;
+ 	margin-top: 11px;
+ 	font-weight: bold;
+ }
+ .thumbnail{
+ 	margin-left: 85px;
+ }
+ .up{
+	position: relative;
+	left: 40%;
+	padding-top: 32px;
+	font-size: 50px;
+ }
+ .articulo  h2{
+	font-size: 20px;
+}
+.articulo .compra h2{
+	font-size: 16px;
+}
+@media(min-width: 997px) and (max-width: 1300px) {
+ .up{
+	position: relative;
+	left: 40%;
+	padding-top: 32px;
+	font-size: 40px;
+ }
+.articulo  h2{
+	font-size: 18px;
+}
+.articulo .compra h2{
+	font-size: 7px;
+}
+.navbar-collapse .navbar-nav li a{
+ 	font-size: 10px;
+ }
+ .navbar-default .navbar-brand{
+  	font-size: 20px;
+  	font-weight: bold;
+ }  
+  footer .panel-body .redes li{
+ 	font-size: 20px;
+ }
+ footer .bajo{
+ 	font-size: 35px;
+ 	margin-top: 11px;
+ 	font-weight: bold;
+ }
+}
