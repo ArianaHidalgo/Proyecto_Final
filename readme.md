@@ -50,7 +50,7 @@ Requerimientos del sitio:
 Tipo de pag:
 ------------
 * Portafolio de mi trabajo como cosplayer
-* layout: entre 2/3 columnas
+* layout: entre 2/3 columnas.
 
 
 ![dibujo](https://user-images.githubusercontent.com/44588089/49907213-fde23080-fe53-11e8-99cf-ddc508f1bdfb.jpeg)
