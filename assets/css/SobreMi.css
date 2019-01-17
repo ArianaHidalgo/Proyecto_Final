@@ -1,0 +1,21 @@
+.container img{
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+.container h1{
+	font-size: 40px;
+	font-family: verdana;
+	font-weight: bold;
+	color:#FCB4ED;
+}
+.container p{
+	font-size: 20px;
+	font-family: verdana;
+	font-weight: bold;
+}
+iframe{
+	width: 400px;
+	position: relative;
+	left: 50px;
+}
